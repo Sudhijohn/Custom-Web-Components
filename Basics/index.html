@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web Components Basics</title>
+    <script defer src="script.js"></script>
+    <script defer src="PremierLeague.js"></script>
+    <link rel="stylesheet" href="style.css"></link>
+  </head>
+  <body>
+    <h1>Web Components</h1>
+    <premier-league>
+      <h2 slot="first">Current Leader : Liverpool</h2>
+      <ul slot="list">
+        <li>Liverpool</li>
+        <li>Manchester City</li>
+        <li>Arsenal</li>
+        <li>Tottenham</li>
+        <li>Aston Villa</li>
+        <li>Manchester United</li>
+      </ul>
+    </premier-league>
+  </body>
+</html>
